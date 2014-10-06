@@ -1,0 +1,74 @@
+<html>
+<head>
+<style>
+html, body {
+  font-size: 16px;
+  line-height: 1.5em;
+}
+html, body, p {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(background.png);
+  background-position: left top;
+  background-position: 0 0px;
+}
+
+img {
+  width: 100%;
+  vertical-align: top;
+}
+.half {
+  float: left;
+  width: 49.9%
+}
+.third {
+  float: left;
+  width: 33.3%;
+}
+#block {
+  background-color: lightblue;
+  margin: 0, padding: 0
+}
+#small_line_height {
+  line-height: 20px;
+  font-size: 0.8em;
+  padding: 0 25%;
+}
+</style>
+</head>
+<body>
+
+<div style="overflow: hidden; width: 100%">
+  <div class="half">
+    <p>first line</p>
+    <img src="http://lorempixel.com/1800/900/" data-rhythm="0">
+    <div id="block">
+      line here
+    </div>
+  </div>
+
+  <div class="half">
+    line 1<br>line 2<br>line 3<br>line 4<br>
+    line 5<br>line 6<br>line 7<br>line 8<br>
+    line 9<br>line 10<br>line 11<br>line 12<br>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <p id="small_line_height" data-rhythm="0">
+    this paragraph has a smaller line height than the base!<br>
+    Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eu iaculis purus. Proin aliquet tristique libero, vel euismod libero fermentum eu. Pellentesque rutrum lorem nec neque luctus faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam fringilla nisi in lorem hendrerit vestibulum at id ante. Sed condimentum ac risus ac tincidunt. Curabitur lobortis dui in rutrum aliquet. In ac eleifend risus. Curabitur sed metus quis felis semper ultrices in non metus. Duis aliquet, arcu sed lobortis consectetur, nisl massa congue urna, sit amet auctor odio sapien eget magna.
+  </p>
+  <div id="block">
+  line here
+  </div>
+</div>
+
+
+<script src="../src/mini-rhythm.js"></script>
+</body>
+</html>
