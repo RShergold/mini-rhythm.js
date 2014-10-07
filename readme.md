@@ -7,8 +7,8 @@ Pure JavaScript way of keeping elements adhering to a vertical rhythm.
 Around 561 bytes. Not dependant on jQuery. cross browser compatibility (IE7 onwards).
 
 
-Why
----
+###Why
+
 CSS only vertical rhythm will tend to break under a couple of conditions.
 
 * Where an image is scaling horizontally and keeping its ratio by adjusting its height.
@@ -17,8 +17,8 @@ CSS only vertical rhythm will tend to break under a couple of conditions.
 mini-rhythm.js adds a bottom margin to ensure the total height is a multiple of the parent element's line-height.
 
 
-Usage
------
+###Usage
+
 
 Add data-rhythm attribute to each element you wish to keep in rhythm. This will add a bottom margin, extending the height to the nearest possible line-height multiple.
 
@@ -38,7 +38,6 @@ You can also use a float
 <img src="..." data-rhythm="1.5">
 ```
 
-Example
--------
+###Example
 
 [RShergold.github.io/mini-rhythm.js/example](http://RShergold.github.io/mini-rhythm.js/example)
