@@ -6,6 +6,7 @@ Pure JavaScript way of keeping elements adhering to a vertical rhythm.
 
 Around 561 bytes. Not dependant on jQuery. cross browser compatibility (IE7 onwards).
 
+Intended to accompany CSS vertical rhythm – not replace it!
 
 ###Why
 
