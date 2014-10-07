@@ -1,5 +1,6 @@
 <html>
 <head>
+  <title>mini-rhythm.js</title>
 <style>
 html, body {
   font-size: 16px;
@@ -27,7 +28,7 @@ img {
   float: left;
   width: 33.3%;
 }
-#block {
+.blue-block {
   background-color: lightblue;
   margin: 0, padding: 0
 }
@@ -41,12 +42,13 @@ img {
 <body>
 
 <div style="overflow: hidden; width: 100%">
+
   <div class="half">
     <p>first line</p>
     <img src="http://lorempixel.com/1800/900/" data-rhythm="0">
-    <div id="block">
+    <p class="blue-block">
       line here
-    </div>
+    </p>
   </div>
 
   <div class="half">
@@ -54,6 +56,7 @@ img {
     line 5<br>line 6<br>line 7<br>line 8<br>
     line 9<br>line 10<br>line 11<br>line 12<br>
   </div>
+
 </div>
 
 <br>
@@ -63,9 +66,9 @@ img {
     this paragraph has a smaller line height than the base!<br>
     Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras eu iaculis purus. Proin aliquet tristique libero, vel euismod libero fermentum eu. Pellentesque rutrum lorem nec neque luctus faucibus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam fringilla nisi in lorem hendrerit vestibulum at id ante. Sed condimentum ac risus ac tincidunt. Curabitur lobortis dui in rutrum aliquet. In ac eleifend risus. Curabitur sed metus quis felis semper ultrices in non metus. Duis aliquet, arcu sed lobortis consectetur, nisl massa congue urna, sit amet auctor odio sapien eget magna.
   </p>
-  <div id="block">
+  <p class="blue-block">
   line here
-  </div>
+  </p>
 </div>
 
 
