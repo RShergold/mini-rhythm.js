@@ -14,7 +14,7 @@ CSS only vertical rhythm will tend to break under a couple of conditions.
 * Where an image is scaling horizontally and keeping its ratio by adjusting its height.
 * Where a paragraph has a smaller line-height than the base and wraps to an unknown number of lines.
 
-mini-rhythm.js adds a bottom margin to ensure the total height is a multiple of the elements line-height.
+mini-rhythm.js adds a bottom margin to ensure the total height is a multiple of the parent element's line-height.
 
 
 Usage
