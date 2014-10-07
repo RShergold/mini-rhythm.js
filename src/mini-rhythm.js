@@ -43,7 +43,7 @@
   function older_browser_line_height( element ) {
     var line_height_string = element.currentStyle.lineHeight;
     line_height = parseInt( line_height_string );
-    return (line_height_string.slice(-2) == 'px') ? line_height : line_height * 96 / 72;
+    return (line_height_string.slice(-2) == 'pt') ? line_height * 96 / 72 : line_height;
   }
 
   init();
